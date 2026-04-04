@@ -11,6 +11,7 @@ public class Trapezoid {
 
     public double getArea() {
         return (a + b) / c;
+    }
 
     public double getPerimeter() {
         return a + b + c + d;

@@ -36,7 +36,6 @@ class ArrayQueue {
         }
         int value = arr[front];
 
-        // зсув елементів вліво
         for (int i = 0; i < rear; i++) {
             arr[i] = arr[i + 1];
         }

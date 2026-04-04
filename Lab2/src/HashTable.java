@@ -23,7 +23,7 @@ public class HashTable {
             index = (index + 1) % size;
 
             if (index == startIndex) {
-                return false; // таблиця повна
+                return false;
             }
         }
 
